@@ -4,7 +4,9 @@ body {
 	Padding: 0;
 }
 
-body {}
+body {
+	Background-color: lightgray;
+}
 
 #wrap {
 	width: 70%;
@@ -14,20 +16,27 @@ body {}
 header,
 nav,
 footer {
-	Padding: 20px;
+	Padding: 40px;
 }
 
 Header {
 	Background-color: blue;
 }
 
+Header img {
+	width:100%;
+	float: center;
+}
+
 nav {
-	background-color: red;
+	background-color: #0EC8C7;
 	text-align: center;
+	font-family:Verdana, Geneva, sans-serif;
 }
 
 nav ul {
 	margin: 0;
+	text-align: center; 
 }
 nav li {
 	display: inline;
@@ -40,37 +49,50 @@ nav a{
 }
 
 nav a:hover {
-	background-color: #900;
+	background-color: #EC3632;
+	color: white; 
 }
 
 section {
 	background-color: aqua;
 	overflow: auto;
+	font-family:Verdana, Geneva, sans-serif;
 }
 
 footer {
-	background-color: plum;
+	background-color: #0EC8C7;
+}
+
+#footercontainer ul li {
+	display: inline; 
 }
 
 aside {
-	width: 24%;
-	background-color:aqua;
+	width: 34%;
+	background-color:#EC3632;
 	float: left;
 	padding: 2%;
+	color: white;
+	font-size: 110%
+}
+
+article img {
+		width: 55%;
+		float: right; 
+		margin: 0 0 10px 10px;
 }
 
 article {
-	width: 24%;
-	background-color: darkorchid;
+	width: 58%;
+	background-color: white;
 	float: right;
 	padding: 2%
 }
 
-.bird {
-	width: 35%;
-	float: right;
-	margin:0 0 10px 10px;
+ul li {
+	padding: 10px 10px;
 }
+
 
 h1 {
 	font-size: 3.0em;
@@ -80,7 +102,7 @@ h1 {
 @media screen and (max-width : 600px){
 	
 	body{
-		background-color: beige
+		background-color: lightgrey 
 	}
 	#wrap {
 		width: 99%;
@@ -93,19 +115,24 @@ h1 {
 	nav ul. nav li {
 		margin: 0;
 		padding: 0;
+		text-align: center; 
 	}
 	nav {
 		padding: 0;
 	}
 	
 	aside, article {
-		float: none;
-		width: 96%;
+		display: block;
+		width: 100%;
+		padding: 20 px 0;
 	}
 	
-	.bird {
-		float: none;
-		width:96%;
+	article {
+		width: auto;
 	}
-	
+	aside ul, aside li {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
 }
