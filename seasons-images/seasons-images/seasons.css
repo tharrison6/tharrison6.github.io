@@ -1,0 +1,72 @@
+body {
+
+    background-position: top center;
+    background-size: auto;
+    background-color: lightblue;
+    margin: 0;
+    padding:0;
+}
+
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    border: solid;
+}
+
+header img {
+    width: 75%;
+    float: center;
+    
+}
+
+header {
+    background-color: sandybrown;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+nav {
+    background-color: sandybrown;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+nav li{
+    display: inline;
+    padding: 20px;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+nav a:hover {
+    color: darkslategray;
+    background-color: #d83636;
+    
+}
+
+section {
+    padding: 20px;
+    background-color: mintcream;
+    overflow: auto;
+    font-family: jazz LET;
+    font-size: 30px;
+}
+
+.solstice {
+    width: 50%;
+    float: right;
+}
+

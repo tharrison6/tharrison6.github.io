@@ -1,0 +1,71 @@
+body {
+    background-position: top center;
+    background-size: auto;
+    background-color: lightsteelblue;
+    margin: 0;
+    padding:0;
+}
+
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    border: solid white;
+}
+
+header img {
+    width: 80%;
+    float: center;
+    
+}
+
+header {
+    background-color: lightyellow;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+nav {
+    background-color: lightyellow;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+nav li{
+    display: inline;
+    padding: 20px;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+}
+
+nav a {
+    color: darkslategray;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+nav a:hover {
+    color: darkslategray;
+    background-color: lightgray;
+    
+}
+
+section {
+    padding: 20px;
+    background-color: mintcream;
+    overflow: auto;
+    font-family: jazz LET;
+    font-size: 30px;
+}
+
+.tree {
+    width: 50%;
+    float: right;
+}
+
