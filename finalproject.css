@@ -1,0 +1,117 @@
+html,
+
+
+body {
+	background-position: top center;
+	background-size: auto;
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	width: 85%;
+	margin: 0 auto;
+}
+
+
+header p {
+	font-family: fangsong;
+	color: white;
+	background-color: red;
+	padding: 10px;
+	text-align: center;
+	font-size: 50px;
+}
+
+header div {
+	width: %
+}
+
+nav {
+	background-color: steelblue;
+	padding: 10 px;
+	text-align: center;
+	font-size: 50px;
+	font-family: fangsong;
+}
+
+nav li {
+	display: inline;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+nav a {
+	color: tomato;
+	text-decoration: none;
+	padding: 10px 30 px;
+}
+
+nav a:hover {
+	color: maroon;
+	background-color: snow;
+}
+
+.logo {
+	width: 70%
+}
+
+section {
+	padding: 20px;
+	background-color: white;
+	overflow: auto;
+	font-family: roboto mono;
+	font-size: 14px;
+	color: SlateGray;
+	text-align: center;
+}
+
+section form {
+	font-size: 20px;
+	
+}
+
+.button {
+	background-color: steelblue;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+	margin: 15px 0;
+	border-radius: 8px;
+}
+
+a.button:hover {
+	Background-color: tomato;
+	color: white;
+}
+
+footer {
+	font-family: sans-serif;
+	background-color: steelblue;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
