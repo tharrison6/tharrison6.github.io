@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<html>
+	<head>
+		<title>slideshow</title>
+		<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		<link href="slideshow.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<div id="wrap">
+		
+		<header>Header</header>
+		
+		<nav>Nav</nav> 
+		
+		
+		<section> <div class="slider-wrapper theme-light">
+            <div id="slider" class="nivoSlider">
+                 <img src="images/florida.png" data-thumb="images/florida.png" alt="florida" title="#htmlcaption" />
+				<img src="images/utah.jpg" data-thumb="images/utah.jpg" alt="utah" />
+                <a href="http://dev7studios.com"><img src="images/Tulane1.png" data-thumb="images/tulane1.png" alt="tulane1" title="This is an example of crazy drip" /></a>
+                <img src="images/smu.jpg" data-thumb="images/smu.jpg" alt="smu" data-transition="slideInLeft" />
+                <img src="images/nc.jpg" data-thumb="images/nc.jpg" alt="nc" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+              
+            </div>
+        </div></section>
+		
+	
+		<footer>Footer</footer>
+		
+		
+		</div>
+		<!--Close wrap-->
+		<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	</body>
+
+
+
+	
+</html>
